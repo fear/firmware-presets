@@ -8,8 +8,8 @@
 #$ DISCUSSION: https://www.felix-arnold.dev
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
-rateprofile 0
-# rateprofile 0
+#$ OPTION_GROUP BEGIN: Welche Rates sollen aktiverit werden? 
+#$ OPTION BEGIN (CHECKED): Cinematic
 set rateprofile_name = cinematic
 set thr_mid = 30
 set thr_expo = 20
@@ -35,9 +35,8 @@ set yaw_rate_limit = 1998
 set roll_level_expo = 0
 set pitch_level_expo = 0
 
-
-rateprofile 1
-# rateprofile 1
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Freestyle
 set rateprofile_name = freestyle
 set thr_mid = 30
 set thr_expo = 20
@@ -63,8 +62,8 @@ set yaw_rate_limit = 1998
 set roll_level_expo = 0
 set pitch_level_expo = 0
 
-rateprofile 2
-# rateprofile 2
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Race
 set rateprofile_name = race
 set thr_mid = 30
 set thr_expo = 20
@@ -89,16 +88,11 @@ set pitch_rate_limit = 1998
 set yaw_rate_limit = 1998
 set roll_level_expo = 0
 set pitch_level_expo = 0
-
-#$ OPTION_GROUP BEGIN: Welche Rateas sollen aktiverit werden? 
-#$ OPTION BEGIN (CHECKED): Cinematic
-rateprofile 0
-#$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): Freestyle
-rateprofile 1
-#$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): Race
-rateprofile 2
 #$ OPTION END
 #$ OPTION_GROUP END
+
+
+
+
+
 

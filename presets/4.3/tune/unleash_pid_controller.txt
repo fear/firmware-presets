@@ -4,8 +4,8 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: rc, rx, link,  
 #$ AUTHOR: Felix Arnold
-#$ DESCRIPTION: Endpoints, map etc.
-#$ HIDDEN: true
+#$ DESCRIPTION: Caps des PID Controllers entfernen
+
 
 #$ INCLUDE: presets/4.3/rc_link/defaults.txt
 

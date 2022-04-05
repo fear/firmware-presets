@@ -1,4 +1,4 @@
-#$ TITLE: OSD
+#$ TITLE: DJI OSD
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
@@ -55,3 +55,8 @@ set osd_stat_max_curr = OFF
 set osd_stat_used_mah = OFF
 set osd_stat_bbox = OFF
 set osd_stat_bb_no = OFF
+
+#$ OPTION BEGIN (UNCHECKED): GPS Telemetrie aktivieren
+# -- ADDER: For 48khz PWM --
+
+#$ OPTION END

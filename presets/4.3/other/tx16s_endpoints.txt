@@ -11,3 +11,6 @@ rxrange 0 988 2011
 rxrange 1 988 2011
 rxrange 2 988 2011
 rxrange 3 988 2011
+
+set deadband = 2
+set yaw_deadband = 2

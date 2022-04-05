@@ -5,11 +5,7 @@
 #$ KEYWORDS: rc, rx, link,  
 #$ AUTHOR: Felix Arnold
 #$ DESCRIPTION: Endpoints, map etc.
-#$ HIDDEN: true
 
 set pid_at_min_throttle = OFF
 set min_check = 1006
 set max_check = 2000
-
-set deadband = 2
-set yaw_deadband = 2

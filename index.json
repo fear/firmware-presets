@@ -224,7 +224,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/modes.txt",
-      "hash": "424e0e5e2be5c834738419bcbd52c7427cf77a99212eaade30231396293f83fd",
+      "hash": "b373e1664cee98a32ccd9c7643ad7b3675be91adf43b8317c034a4d9947c1476",
       "title": "Modes",
       "firmware_version": [
         "4.3"
@@ -262,9 +262,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/osd.txt",
-      "hash": "b3894e21fae6368bf138cbb0ea0d2aa50b4c55eb6f32a8ef494436995fcbaf40",
-      "title": "OSD",
+      "fullPath": "presets/4.3/osd/osd_dji.txt",
+      "hash": "bb6aac5373a559d66a1a76ea0820ba676c49c91f152f0755f12f128aaf27beb6",
+      "title": "DJI OSD",
       "firmware_version": [
         "4.3"
       ],
@@ -293,7 +293,7 @@
     },
     {
       "fullPath": "presets/4.3/other/idle_up.txt",
-      "hash": "53085830dfabcf47a4601c58edd59b563e1b1dd454ce19a2424ebe270b4276f0",
+      "hash": "de20bcac5505c8ecc4f6b705295348257b3496b8f618b01c418f8e7b6120d266",
       "title": "Idle UP",
       "firmware_version": [
         "4.3"
@@ -306,12 +306,11 @@
         "link"
       ],
       "author": "Felix Arnold",
-      "hidden": true,
       "priority": 0
     },
     {
       "fullPath": "presets/4.3/other/tx16s_endpoints.txt",
-      "hash": "3662f484f196910dd565e28bdb24e98f1f06bcadcfcb675987b022f9b73049a5",
+      "hash": "3bed22b59c9d776d5ee676469605242c5b96597527c8ca0d14bf05db537d6f65",
       "title": "Radiomaster TX16S Endpoints",
       "firmware_version": [
         "4.3"
@@ -385,8 +384,8 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs.txt",
-      "hash": "0f910d4903230089fc4dac9dea02be994b26d934a70e2887136b0146f217b2cc",
-      "title": "ExpressLRS 250Hz",
+      "hash": "536c73688abcae2d3ed66488f177977e55eb5baa47ffcf7a208ce13c06f85343",
+      "title": "ExpressLRS",
       "firmware_version": [
         "4.3"
       ],
@@ -428,7 +427,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/unleash_pid_controller.txt",
-      "hash": "ce1f04c264c3cd8b191360f37b1312f5b016f4bd68e18b1683228603d07725b5",
+      "hash": "f766cf1d6d6bf6cdfed2555d0b5b941f84ece9adf8f688bff1198ae8f514506d",
       "title": "PID Controller Caps löschen",
       "firmware_version": [
         "4.3"
@@ -441,7 +440,6 @@
         "link"
       ],
       "author": "Felix Arnold",
-      "hidden": true,
       "priority": 1000000000000
     }
   ]

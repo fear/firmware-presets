@@ -6,6 +6,7 @@
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets RC related settings to defaults
 #$ PRIORITY: 0
+#$ HIDDEN: true
 
 # NOTE TO AUTHORS: Always include this Preset in any RC Preset
 

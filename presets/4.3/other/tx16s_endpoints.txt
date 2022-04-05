@@ -1,0 +1,13 @@
+#$ TITLE: Radiomaster TX16S Endpoints
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: rc, rx, link,  
+#$ AUTHOR: Felix Arnold
+#$ DESCRIPTION: Endpoints
+
+
+rxrange 0 988 2011
+rxrange 1 988 2011
+rxrange 2 988 2011
+rxrange 3 988 2011

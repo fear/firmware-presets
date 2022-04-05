@@ -1,4 +1,4 @@
-#$ TITLE: Fe4r's racing rates
+#$ TITLE: Rates
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
@@ -6,22 +6,9 @@
 #$ AUTHOR: Felix Arnold
 #$ DESCRIPTION: Just a pilot.
 #$ DISCUSSION: https://www.felix-arnold.dev
+#$ INCLUDE: presets/4.3/rates/defaults.txt
 
-# restore original profile selection
-profile 0
-
-#$ OPTION_GROUP BEGIN: Welche Rateas sollen aktiverit werden? 
-#$ OPTION BEGIN (CHECKED): Cinematic
 rateprofile 0
-#$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): Freestyle
-rateprofile 1
-#$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): Race
-rateprofile 2
-#$ OPTION END
-#$ OPTION_GROUP END
-
 # rateprofile 0
 set rateprofile_name = cinematic
 set thr_mid = 30
@@ -48,8 +35,8 @@ set yaw_rate_limit = 1998
 set roll_level_expo = 0
 set pitch_level_expo = 0
 
-rateprofile 1
 
+rateprofile 1
 # rateprofile 1
 set rateprofile_name = freestyle
 set thr_mid = 30
@@ -77,7 +64,6 @@ set roll_level_expo = 0
 set pitch_level_expo = 0
 
 rateprofile 2
-
 # rateprofile 2
 set rateprofile_name = race
 set thr_mid = 30
@@ -103,4 +89,16 @@ set pitch_rate_limit = 1998
 set yaw_rate_limit = 1998
 set roll_level_expo = 0
 set pitch_level_expo = 0
+
+#$ OPTION_GROUP BEGIN: Welche Rateas sollen aktiverit werden? 
+#$ OPTION BEGIN (CHECKED): Cinematic
+rateprofile 0
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Freestyle
+rateprofile 1
+#$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): Race
+rateprofile 2
+#$ OPTION END
+#$ OPTION_GROUP END
 

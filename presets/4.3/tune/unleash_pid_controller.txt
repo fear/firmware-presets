@@ -1,0 +1,13 @@
+#$ TITLE: PID Controller Caps löschen
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: rc, rx, link,  
+#$ AUTHOR: Felix Arnold
+#$ DESCRIPTION: Endpoints, map etc.
+#$ HIDDEN: true
+
+#$ INCLUDE: presets/4.3/rc_link/defaults.txt
+
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000

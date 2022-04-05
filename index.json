@@ -182,7 +182,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "bce5bcfb301b1e2af1bf3f3dc549993022fe0fbddcea593bea7b301866cebc90",
+      "hash": "673a1aff69e1ce41d7344f5afed484b221b4ce49694fff50606d002304805aa6",
       "title": "Default 4.3 Filter settings",
       "firmware_version": [
         "4.3"
@@ -196,11 +196,12 @@
         "reset"
       ],
       "author": "Betaflight",
+      "hidden": true,
       "priority": 100
     },
     {
       "fullPath": "presets/4.3/modes/defaults.txt",
-      "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
+      "hash": "96711ff7d3930a39d09f1b2390009d9150433594e62773ed4a89e612348ae8a6",
       "title": "Default 4.3 Modes and Adjustment settings",
       "firmware_version": [
         "4.3"
@@ -217,26 +218,33 @@
         "switch"
       ],
       "author": "Betaflight",
+      "hidden": true,
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/FeAr_DJI.txt",
-      "hash": "9fd8e392829618f2f65e3c5510cc1c82bc29241729ed6bfe866a8b7bd2d0178c",
-      "title": "Fe4r - DJI",
+      "fullPath": "presets/4.3/modes/modes.txt",
+      "hash": "7542d9461641016f80a8ed198c0353b021d4931203bd2ccb7691776e05e8e753",
+      "title": "FeAr's Modes",
       "firmware_version": [
         "4.3"
       ],
-      "category": "OSD",
+      "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "DJI"
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
       ],
       "author": "Felix Arnold",
       "priority": 0
     },
     {
       "fullPath": "presets/4.3/osd/defaults.txt",
-      "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
+      "hash": "dfa1021614defcef737255d89531ccd47c7f17cfde99a936645071e216b5cdec",
       "title": "Default 4.3 OSD settings",
       "firmware_version": [
         "4.3"
@@ -249,6 +257,22 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/fear_osd.txt",
+      "hash": "b3894e21fae6368bf138cbb0ea0d2aa50b4c55eb6f32a8ef494436995fcbaf40",
+      "title": "OSD",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "DJI"
+      ],
+      "author": "Felix Arnold",
       "priority": 0
     },
     {
@@ -268,7 +292,7 @@
     },
     {
       "fullPath": "presets/4.3/other/blackbox.txt.txt",
-      "hash": "f87ee00c3009c33b4d02bd08d95b19ebdaa8a70f356cb1b25568e1a844a0c244",
+      "hash": "af2203793b5dbbe39d8f153660699701d096f3095122bd707821bd29870b1743",
       "title": "Fe4r - Blackbox Settings",
       "firmware_version": [
         "4.3"
@@ -283,7 +307,7 @@
     },
     {
       "fullPath": "presets/4.3/other/feature.txt",
-      "hash": "9217c26e88caa4e28c2c994b0d33f53970e819570df4d11a259ce84f3506a687",
+      "hash": "4e47acf93b68c64860baf302c55addee27bfba8e9fbc4aedee8bf1befed5af99",
       "title": "Fe4r - Features",
       "firmware_version": [
         "4.3"
@@ -313,8 +337,8 @@
     },
     {
       "fullPath": "presets/4.3/rates/fear_cinematic.txt",
-      "hash": "799a5490af7064b364bc8e5abddd583429337e5ceedfede6ed812bbc23122737",
-      "title": "Fe4r's racing rates",
+      "hash": "cff3bb87f4a1f8b8e3c8422abbeb586a30d613f17f8f5879a4b9ca136ff2f316",
+      "title": "Fe4r's Cinematic rates",
       "firmware_version": [
         "4.3"
       ],
@@ -329,7 +353,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/fear_freestyle.txt",
-      "hash": "3fbac44ec4b66dc2722decdb546f94600834f0d56aa155ce91aa4d694f2878a8",
+      "hash": "b69ff0df1789de6330b30ae917feaf8ab8bda1e64ebbd7dc4035ec25fd8797b9",
       "title": "Fe4r's Freestyle rates",
       "firmware_version": [
         "4.3"
@@ -345,7 +369,23 @@
     },
     {
       "fullPath": "presets/4.3/rates/fear_race.txt",
-      "hash": "799a5490af7064b364bc8e5abddd583429337e5ceedfede6ed812bbc23122737",
+      "hash": "efcad721d6b8c0424c2df44e24445ade29f0c030161d43b3c6fd4272ff1b778b",
+      "title": "Fe4r's racing rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "rates"
+      ],
+      "author": "Felix Arnold",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/fear_rates.txt",
+      "hash": "9a8df40123ec2dac1432f7a67f35406dfaacb9dcb8c581510bc454dcf76098ad",
       "title": "Fe4r's racing rates",
       "firmware_version": [
         "4.3"

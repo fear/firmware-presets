@@ -5,6 +5,7 @@
 #$ KEYWORDS: defaults, filter, filters, reset
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets Filter settings to 4.3 defaults
+#$ HIDDEN: true
 
 # -- Gyro lowpass filters --
 set gyro_lpf1_type = PT1

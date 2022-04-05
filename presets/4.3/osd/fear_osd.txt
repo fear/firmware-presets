@@ -1,0 +1,57 @@
+#$ TITLE: OSD
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: DJI
+#$ AUTHOR: Felix Arnold
+#$ DESCRIPTION: Just a pilot.
+#$ DISCUSSION: https://www.felix-arnold.dev
+
+#$ PARSER: MARKED
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set osd_warn_launch_control = OFF
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_warn_rssi = ON
+set osd_warn_link_quality = ON
+set osd_warn_rssi_dbm = ON
+set osd_alt_alarm = 80
+set osd_vbat_pos = 353
+set osd_rssi_pos = 2533
+set osd_link_quality_pos = 2404
+set osd_rssi_dbm_pos = 345
+set osd_tim_1_pos = 295
+set osd_tim_2_pos = 322
+set osd_flymode_pos = 2542
+set osd_throttle_pos = 268
+set osd_vtx_channel_pos = 355
+set osd_crosshairs_pos = 237
+set osd_ah_sbar_pos = 238
+set osd_ah_pos = 110
+set osd_current_pos = 486
+set osd_mah_drawn_pos = 490
+set osd_craft_name_pos = 2538
+set osd_display_name_pos = 490
+set osd_gps_speed_pos = 409
+set osd_gps_lon_pos = 257
+set osd_gps_lat_pos = 289
+set osd_gps_sats_pos = 377
+set osd_home_dir_pos = 367
+set osd_home_dist_pos = 494
+set osd_flight_dist_pos = 139
+set osd_altitude_pos = 16384
+set osd_pidrate_profile_pos = 214
+set osd_warnings_pos = 2436
+set osd_avg_cell_voltage_pos = 2545
+set osd_disarmed_pos = 2220
+set osd_flip_arrow_pos = 270
+set osd_stat_tim_2 = OFF
+set osd_stat_max_spd = OFF
+set osd_stat_min_batt = OFF
+set osd_stat_min_rssi = OFF
+set osd_stat_max_curr = OFF
+set osd_stat_used_mah = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF

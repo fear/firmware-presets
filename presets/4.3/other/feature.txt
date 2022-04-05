@@ -4,7 +4,8 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: feature
 #$ AUTHOR: Felix Arnold
-#$ DESCRIPTION: Meine Featureeinstellungen für alle Quads. 
+#$ DESCRIPTION: Just a pilot.
+#$ DISCUSSION: https://www.felix-arnold.dev
 
 
 # feature

@@ -5,6 +5,7 @@
 #$ KEYWORDS: defaults, reset, OSD
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets the OSD values back to Betaflight 4.3 defaults
+#$ HIDDEN: true
 
 set osd_units = METRIC
 set osd_warn_arming_disable = ON

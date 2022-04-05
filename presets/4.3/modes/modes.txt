@@ -1,19 +1,18 @@
-#$ TITLE: Default 4.3 Modes and Adjustment settings
+#$ TITLE: FeAr's Modes
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
-#$ STATUS: OFFICIAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
-#$ AUTHOR: Betaflight
-#$ DESCRIPTION: Resets modes and adjustment ranges to 4.3 defaults
-#$ HIDDEN: true
+#$ AUTHOR: Felix Arnold
+#$ DESCRIPTION: Resets modes to my defaults.
 
-# aux switch settings
-aux 0 0 0 900 900 0 0
-aux 1 0 0 900 900 0 0
-aux 2 0 0 900 900 0 0
-aux 3 0 0 900 900 0 0
-aux 4 0 0 900 900 0 0
-aux 5 0 0 900 900 0 0
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 1300 1700 0 0
+aux 2 2 1 1700 2100 0 0
+aux 3 13 3 1700 2100 0 0
+aux 4 28 2 1700 2100 0 0
+aux 5 35 3 1700 2100 0 0
 aux 6 0 0 900 900 0 0
 aux 7 0 0 900 900 0 0
 aux 8 0 0 900 900 0 0
@@ -29,7 +28,7 @@ aux 17 0 0 900 900 0 0
 aux 18 0 0 900 900 0 0
 aux 19 0 0 900 900 0 0
 
-# adjustment ranges
+# adjrange
 adjrange 0 0 0 900 900 0 0 0 0
 adjrange 1 0 0 900 900 0 0 0 0
 adjrange 2 0 0 900 900 0 0 0 0
@@ -60,4 +59,3 @@ adjrange 26 0 0 900 900 0 0 0 0
 adjrange 27 0 0 900 900 0 0 0 0
 adjrange 28 0 0 900 900 0 0 0 0
 adjrange 29 0 0 900 900 0 0 0 0
-

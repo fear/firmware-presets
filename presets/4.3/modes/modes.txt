@@ -4,7 +4,10 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, mode, modes, adjustments, aux, switch
 #$ AUTHOR: Felix Arnold
-#$ DESCRIPTION: Resets modes to my defaults.
+#$ DESCRIPTION: Aux 1 -> Arm
+#$ DESCRIPTION: Aux 2 -> acro, angle, horizon
+#$ DESCRIPTION: Aux 3 -> 0 throttle, idle up, air mode on
+#$ DESCRIPTION: Aux 4 -> Beeper, Flip overs
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
 # aux

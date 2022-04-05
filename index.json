@@ -136,8 +136,10 @@
       "4.3"
     ],
     "category": [
+      "FILTERS",
       "MODES",
       "OSD",
+      "OTHER",
       "RATES",
       "RC_LINK"
     ],
@@ -150,12 +152,18 @@
       "500Hz",
       "adjustments",
       "aux",
+      "beeper",
+      "blackbox",
       "defaults",
       "DJI",
       "ELRS",
       "express",
+      "feature",
+      "filter",
+      "filters",
       "freestyle",
       "link",
+      "map",
       "mode",
       "modes",
       "OSD",
@@ -172,6 +180,24 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/filters/defaults.txt",
+      "hash": "bce5bcfb301b1e2af1bf3f3dc549993022fe0fbddcea593bea7b301866cebc90",
+      "title": "Default 4.3 Filter settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "filter",
+        "filters",
+        "reset"
+      ],
+      "author": "Betaflight",
+      "priority": 100
+    },
     {
       "fullPath": "presets/4.3/modes/defaults.txt",
       "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
@@ -194,39 +220,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/FeAr_Analog.txt",
-      "hash": "8a24406d797c29a2cbf8d0bc8ee5a9916bd6c06d29e89a2b74e65557de121891",
-      "title": "Fe4r - Analog",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "DJI"
-      ],
-      "author": "Felix Arnold",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.3/osd/FeAr_DJI.txt",
-      "hash": "aa1dea6b0aba7d0e3eaa7806ed9e9d9840ad163ee9b1789848c5b625048664ad",
+      "hash": "9fd8e392829618f2f65e3c5510cc1c82bc29241729ed6bfe866a8b7bd2d0178c",
       "title": "Fe4r - DJI",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "DJI"
-      ],
-      "author": "Felix Arnold",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/FeAr_DJI_GPS.txt",
-      "hash": "f8f39b5e57cfde4d5350f08a7a1c710764b10edd7afc1ee459c22a2022bcf7f5",
-      "title": "Fe4r - DJI with GPS",
       "firmware_version": [
         "4.3"
       ],
@@ -253,6 +249,66 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/beeper.txt",
+      "hash": "e36ed82576892a39140762f14930795a06f2852c573860f0d15a96e8d18c8714",
+      "title": "Fe4r - Beeper Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "beeper"
+      ],
+      "author": "Felix Arnold",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/blackbox.txt.txt",
+      "hash": "f87ee00c3009c33b4d02bd08d95b19ebdaa8a70f356cb1b25568e1a844a0c244",
+      "title": "Fe4r - Blackbox Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "blackbox"
+      ],
+      "author": "Felix Arnold",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/feature.txt",
+      "hash": "9217c26e88caa4e28c2c994b0d33f53970e819570df4d11a259ce84f3506a687",
+      "title": "Fe4r - Features",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "feature"
+      ],
+      "author": "Felix Arnold",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/map.txt",
+      "hash": "a52fd9b362ff49b80bd2798d944e9ed6fc10645a24f6aacb0d416bc9753d575a",
+      "title": "Fe4r - Map",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "map"
+      ],
+      "author": "Felix Arnold",
       "priority": 0
     },
     {
@@ -348,6 +404,24 @@
         "rx",
         "link",
         "smoothing"
+      ],
+      "author": "Felix Arnold",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/fear_remote.txt",
+      "hash": "7f5222d5765568368408d99ef6c6dc792a85456b440f04fe1208aaccc6464a33",
+      "title": "Fe4r's Radiomaster Endpoints and Idle UP...",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rc",
+        "rx",
+        "link"
       ],
       "author": "Felix Arnold",
       "force_options_review": true,

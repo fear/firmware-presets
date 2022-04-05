@@ -312,6 +312,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/rates/fear_cinematic.txt",
+      "hash": "799a5490af7064b364bc8e5abddd583429337e5ceedfede6ed812bbc23122737",
+      "title": "Fe4r's racing rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "racing",
+        "rates"
+      ],
+      "author": "Felix Arnold",
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/4.3/rates/fear_freestyle.txt",
       "hash": "3fbac44ec4b66dc2722decdb546f94600834f0d56aa155ce91aa4d694f2878a8",
       "title": "Fe4r's Freestyle rates",

@@ -141,7 +141,8 @@
       "OSD",
       "OTHER",
       "RATES",
-      "RC_LINK"
+      "RC_LINK",
+      "TUNE"
     ],
     "author": [
       "Betaflight",
@@ -149,11 +150,11 @@
     ],
     "keywords": [
       "250Hz",
-      "500Hz",
+      "actual",
       "adjustments",
       "aux",
-      "beeper",
-      "blackbox",
+      "basic",
+      "default",
       "defaults",
       "DJI",
       "ELRS",
@@ -161,22 +162,22 @@
       "feature",
       "filter",
       "filters",
-      "freestyle",
       "link",
-      "map",
       "mode",
       "modes",
       "OSD",
+      "pid",
       "racing",
       "rates",
-      "RC",
+      "rc",
       "rc link",
       "rc_link",
       "rc_smoothing",
       "reset",
-      "Rx",
+      "rx",
       "smoothing",
-      "switch"
+      "switch",
+      "tune"
     ]
   },
   "presets": [
@@ -223,8 +224,8 @@
     },
     {
       "fullPath": "presets/4.3/modes/modes.txt",
-      "hash": "7542d9461641016f80a8ed198c0353b021d4931203bd2ccb7691776e05e8e753",
-      "title": "FeAr's Modes",
+      "hash": "424e0e5e2be5c834738419bcbd52c7427cf77a99212eaade30231396293f83fd",
+      "title": "Modes",
       "firmware_version": [
         "4.3"
       ],
@@ -261,7 +262,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/fear_osd.txt",
+      "fullPath": "presets/4.3/osd/osd.txt",
       "hash": "b3894e21fae6368bf138cbb0ea0d2aa50b4c55eb6f32a8ef494436995fcbaf40",
       "title": "OSD",
       "firmware_version": [
@@ -276,39 +277,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/other/beeper.txt",
-      "hash": "e36ed82576892a39140762f14930795a06f2852c573860f0d15a96e8d18c8714",
-      "title": "Fe4r - Beeper Settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "beeper"
-      ],
-      "author": "Felix Arnold",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/other/blackbox.txt.txt",
-      "hash": "af2203793b5dbbe39d8f153660699701d096f3095122bd707821bd29870b1743",
-      "title": "Fe4r - Blackbox Settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "keywords": [
-        "blackbox"
-      ],
-      "author": "Felix Arnold",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/other/feature.txt",
-      "hash": "4e47acf93b68c64860baf302c55addee27bfba8e9fbc4aedee8bf1befed5af99",
-      "title": "Fe4r - Features",
+      "fullPath": "presets/4.3/other/general.txt",
+      "hash": "391f6e3f4d0278f30f6b0717bb38bc4c852bc28a68bf6e8bb884d181af0ab301",
+      "title": "General Settings",
       "firmware_version": [
         "4.3"
       ],
@@ -321,72 +292,62 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/other/map.txt",
-      "hash": "a52fd9b362ff49b80bd2798d944e9ed6fc10645a24f6aacb0d416bc9753d575a",
-      "title": "Fe4r - Map",
+      "fullPath": "presets/4.3/other/idle_up.txt",
+      "hash": "53085830dfabcf47a4601c58edd59b563e1b1dd454ce19a2424ebe270b4276f0",
+      "title": "Idle UP",
       "firmware_version": [
         "4.3"
       ],
       "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
-        "map"
+        "rc",
+        "rx",
+        "link"
+      ],
+      "author": "Felix Arnold",
+      "hidden": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/tx16s_endpoints.txt",
+      "hash": "3662f484f196910dd565e28bdb24e98f1f06bcadcfcb675987b022f9b73049a5",
+      "title": "Radiomaster TX16S Endpoints",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rc",
+        "rx",
+        "link"
       ],
       "author": "Felix Arnold",
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/rates/fear_cinematic.txt",
-      "hash": "cff3bb87f4a1f8b8e3c8422abbeb586a30d613f17f8f5879a4b9ca136ff2f316",
-      "title": "Fe4r's Cinematic rates",
+      "fullPath": "presets/4.3/rates/defaults.txt",
+      "hash": "419070381064e0e069ba5fe2b6e4063a7c38a1e6033c5b41c0dc03c84c8dd090",
+      "title": "Default rates",
       "firmware_version": [
         "4.3"
       ],
       "category": "RATES",
-      "status": "COMMUNITY",
+      "status": "OFFICIAL",
       "keywords": [
-        "racing",
-        "rates"
+        "defaults",
+        "rates",
+        "actual"
       ],
-      "author": "Felix Arnold",
-      "priority": 10000
+      "author": "Betaflight",
+      "priority": 0,
+      "hidden": true
     },
     {
-      "fullPath": "presets/4.3/rates/fear_freestyle.txt",
-      "hash": "b69ff0df1789de6330b30ae917feaf8ab8bda1e64ebbd7dc4035ec25fd8797b9",
-      "title": "Fe4r's Freestyle rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "freestyle",
-        "rates"
-      ],
-      "author": "Felix Arnold",
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/4.3/rates/fear_race.txt",
-      "hash": "efcad721d6b8c0424c2df44e24445ade29f0c030161d43b3c6fd4272ff1b778b",
-      "title": "Fe4r's racing rates",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "racing",
-        "rates"
-      ],
-      "author": "Felix Arnold",
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/4.3/rates/fear_rates.txt",
-      "hash": "9a8df40123ec2dac1432f7a67f35406dfaacb9dcb8c581510bc454dcf76098ad",
-      "title": "Fe4r's racing rates",
+      "fullPath": "presets/4.3/rates/rates.txt",
+      "hash": "1e699f84ee4b62a2a51d4780b28641c39a2811e382f72ea08b12896e75758cc6",
+      "title": "Rates",
       "firmware_version": [
         "4.3"
       ],
@@ -401,7 +362,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
-      "hash": "dd9a493fb69537b8b495fbfa6f39477d69dba0c2538a2f2de68aa5a469616f05",
+      "hash": "467181f16b370b0971b91c759f69ab517626de66fbd3bbe7b9b80653caa76681",
       "title": "Reset RC related settings",
       "firmware_version": [
         "4.3"
@@ -419,10 +380,11 @@
         "rc_smoothing"
       ],
       "author": "Betaflight",
-      "priority": 0
+      "priority": 0,
+      "hidden": true
     },
     {
-      "fullPath": "presets/4.3/rc_link/fear_elrs_250hz.txt",
+      "fullPath": "presets/4.3/rc_link/elrs.txt",
       "hash": "0f910d4903230089fc4dac9dea02be994b26d934a70e2887136b0146f217b2cc",
       "title": "ExpressLRS 250Hz",
       "firmware_version": [
@@ -444,44 +406,43 @@
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/4.3/rc_link/fear_elrs_500hz.txt",
-      "hash": "011c6d3a83a7c20debef5816e5abdbdcd1bf88e755ee8c1644fa0a5ca40172a0",
-      "title": "Fe4r's ExpressLRS 500Hz (Racing)",
+      "fullPath": "presets/4.3/tune/defaults.txt",
+      "hash": "e6706fc80f3ad47cec75bc9193381000da4ee8bb28b924705b854517e0f85dfa",
+      "title": "Tune defaults for Basic 4.3 TUNES",
       "firmware_version": [
         "4.3"
       ],
-      "category": "RC_LINK",
-      "status": "COMMUNITY",
+      "category": "TUNE",
+      "status": "OFFICIAL",
       "keywords": [
-        "ELRS",
-        "express",
-        "500Hz",
-        "rc",
-        "rx",
-        "link",
-        "smoothing"
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
       ],
-      "author": "Felix Arnold",
-      "force_options_review": true,
-      "priority": 10000000000
+      "author": "Betaflight",
+      "priority": 0,
+      "hidden": true
     },
     {
-      "fullPath": "presets/4.3/rc_link/fear_remote.txt",
-      "hash": "7f5222d5765568368408d99ef6c6dc792a85456b440f04fe1208aaccc6464a33",
-      "title": "Fe4r's Radiomaster Endpoints and Idle UP...",
+      "fullPath": "presets/4.3/tune/unleash_pid_controller.txt",
+      "hash": "ce1f04c264c3cd8b191360f37b1312f5b016f4bd68e18b1683228603d07725b5",
+      "title": "PID Controller Caps löschen",
       "firmware_version": [
         "4.3"
       ],
-      "category": "RC_LINK",
-      "status": "COMMUNITY",
+      "category": "TUNE",
+      "status": "OFFICIAL",
       "keywords": [
         "rc",
         "rx",
         "link"
       ],
       "author": "Felix Arnold",
-      "force_options_review": true,
-      "priority": 10000000000
+      "hidden": true,
+      "priority": 1000000000000
     }
   ]
 }

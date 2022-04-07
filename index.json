@@ -142,7 +142,8 @@
       "OTHER",
       "RATES",
       "RC_LINK",
-      "TUNE"
+      "TUNE",
+      "VTX"
     ],
     "author": [
       "Betaflight",
@@ -152,6 +153,7 @@
       "250Hz",
       "actual",
       "adjustments",
+      "analog",
       "aux",
       "basic",
       "default",
@@ -262,6 +264,21 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/osd/osd_analog.txt",
+      "hash": "cb0e162428bfce18aa1062fa149409c322bf9fbf7c077746c6edb457c2fca777",
+      "title": "Analog OSD",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "analog"
+      ],
+      "author": "Felix Arnold",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/osd/osd_dji.txt",
       "hash": "bb6aac5373a559d66a1a76ea0820ba676c49c91f152f0755f12f128aaf27beb6",
       "title": "DJI OSD",
@@ -345,7 +362,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/rates.txt",
-      "hash": "1e699f84ee4b62a2a51d4780b28641c39a2811e382f72ea08b12896e75758cc6",
+      "hash": "06fc8fe2182906cb794f4964aef34df94fe9a660434a4c7c685da2ec2f761f6a",
       "title": "Rates",
       "firmware_version": [
         "4.3"
@@ -441,6 +458,23 @@
       ],
       "author": "Felix Arnold",
       "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.3/vtx/mobula.txt",
+      "hash": "b5872368a2c4521b9703d647f9f2dd440afdbfe952bc084203829cb39faaa77a",
+      "title": "Mobula n",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rc",
+        "rx",
+        "link"
+      ],
+      "author": "Felix Arnold",
+      "priority": 1000000
     }
   ]
 }

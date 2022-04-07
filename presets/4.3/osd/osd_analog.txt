@@ -1,0 +1,57 @@
+#$ TITLE: Analog OSD
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: analog
+#$ AUTHOR: Felix Arnold
+#$ DESCRIPTION: Just a pilot.
+#$ DISCUSSION: https://www.felix-arnold.dev
+
+#$ PARSER: MARKED
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set osd_warn_core_temp = OFF
+set osd_warn_fail_safe = OFF
+set osd_warn_rssi = ON
+set osd_warn_link_quality = ON
+set osd_rssi_alarm = 30
+set osd_cap_alarm = 1200
+set osd_alt_alarm = 400
+set osd_rssi_pos = 167
+set osd_link_quality_pos = 2497
+set osd_link_tx_power_pos = 56
+set osd_tim_1_pos = 449
+set osd_tim_2_pos = 2103
+set osd_remaining_time_estimate_pos = 387
+set osd_flymode_pos = 2508
+set osd_g_force_pos = 473
+set osd_throttle_pos = 2465
+set osd_vtx_channel_pos = 2081
+set osd_current_pos = 55
+set osd_mah_drawn_pos = 311
+set osd_altitude_pos = 470
+set osd_pid_roll_pos = 33
+set osd_pid_pitch_pos = 65
+set osd_pid_yaw_pos = 97
+set osd_warnings_pos = 2377
+set osd_avg_cell_voltage_pos = 2519
+set osd_disarmed_pos = 267
+set osd_flip_arrow_pos = 2254
+set osd_core_temp_pos = 467
+set osd_log_status_pos = 442
+set osd_stat_tim_1 = ON
+set osd_stat_endbatt = ON
+set osd_stat_battery = ON
+set osd_stat_used_mah = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_stat_max_g_force = ON
+set osd_stat_max_esc_rpm = ON
+set osd_stat_max_fft = ON
+set osd_menu_background = GRAY
+
+#$ OPTION BEGIN (UNCHECKED): GPS Telemetrie aktivieren
+# -- ADDER: For 48khz PWM --
+
+#$ OPTION END
